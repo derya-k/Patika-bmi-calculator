@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    background-color:  white;
+    /*rgb(81, 177, 94);*/
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 0.5rem 0.5rem rgb(185, 173, 214);
+}
+h1{
+    flex:3;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 5rem;
+}
+div{
+    
+    list-style-type: none;
+    flex:1;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+    
+}
+ul{
+    list-style-type: none;
+    align-items: flex-end;
+    
+}
+li{
+   margin: 0.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+a:hover{
+    background-color: rgb(185, 173, 214);
+    color: white;
+}
+
